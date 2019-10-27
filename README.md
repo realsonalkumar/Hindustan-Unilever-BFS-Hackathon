@@ -1,7 +1,10 @@
 # Hindustan-Unilever-BFS-Hackathon
-This repository contains our approach to Hindustan Unilever BFS Hackathon help at Unilever Offices in Bangalore.
+This repository contains our approach to Hindustan Unilever BFS Hackathon help at Unilever Offices in Bangalore.There were 2 parts of the hackathon. The online part was held on skilleza and one needed to be in the top 50 to qualify for the onsite hackathon.
+<p align="center">
+<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Anomaly Plot.png">
+</p>
 
-We were assigned problem statement 1. The description of the exact problem statement is given below.
+There were a total of 6 problem statements.We were assigned problem statement 1. The description of the exact problem statement is given below.
 
 ### Preventing Revenue Leakage and datasets
 HUL have 436 Lakme salons: company run salon or franchise salon. Revenue leakage happens from underbilling, wrong discounts, bypass system and double discounts or discounts to customers who are not eligible.

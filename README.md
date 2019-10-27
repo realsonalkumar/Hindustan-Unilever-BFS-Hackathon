@@ -22,5 +22,8 @@ Steps followed:
 2. Count the person if it crosses the vertical line.
 
 <p align="left">
-<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/In.gif">
+<img width="400" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/In.gif">
+</p>
+<p align="right">
+<img width="400" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Out.gif">
 </p></br>

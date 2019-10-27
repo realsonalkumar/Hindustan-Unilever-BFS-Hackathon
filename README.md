@@ -14,6 +14,22 @@ The actual problem statement had 3 parts to it:
 3. Count footfall in a store from CCTV data.
 
 ## Important Disclaimer: The data has been not published. It has also been hidden from the code due to security concerns. The code just describes our methodology and can be used as an effective way for anomaly detection from sales data.
+### Part 1 Solution:
+The data hasn't been published or shown due to privacy issues. However the data can be thought of as row wise sales data where every row represented sale of a particular product or service with it's corresponding invoice number and other details about the sales such as price, date, etc.
+The other dataset consisted of materials used for a corresponding service with its invoice number.
+Steps followed:
+1. Only individual rows corresponding to individual sales obviously wasn't enough to deetct anomaly. Therefore rigorous feature engineering was required. Features generally included aggregation of sale related features on invoice, date, store, etc.
+2. Standardizing the data.
+3. Dimesionality reduction using PCA (Numerical features and categorical features seperate).
+4. Training Isolation Forest for anomaly detection. (DBSCAN was also tried but results were not good).
+5. Training VAE to learn anomalies for deployment.
+
+Below is a glimpse of how our model performed and visualization on 3 dimensions.
+
+<p align="center">
+<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Anomaly Plot.png">
+</p>
+
 
 ### Part 3 Solution:
 We used OpenCV to detect and count every person entering and leaving the store.(Only one counter was maintained for the total count).

@@ -3,6 +3,7 @@ This repository contains our approach to Hindustan Unilever BFS Hackathon help a
 <p align="center">
 <img width="1400" height="300" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/HUL BFS.png">
 </p>
+
 ## Online Hackathon
 The online part of the hackathon was a regression problem. We did not have to hustle much for a good leaderboard score. Our main objective was to qualify for the 2nd phase. We initially started with  XGBoost and LightGBM which are my favourite when it somes to competitions. Howver we did not perform well on the leaderboard even after tuning. Finally we settled with Ridge Regression which gave us a leaderboard score of 97.134388 and we ended up in the 20th position.
 

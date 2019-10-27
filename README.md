@@ -56,6 +56,6 @@ Below is the actual working implementation of our algorithm on a CCTV footage of
 Our code is inspired from people counter implemented in pyimagesearch.
 ### We were placed 1st in the hackthon.
 <p align="center">
-<img width="800" height="599" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Winning.jpeg">
+<img width="800" height="599" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Winning.jpg">
 </p></br>
 

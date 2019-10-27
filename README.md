@@ -15,9 +15,12 @@ The actual problem statement had 3 parts to it:
 
 ## Important Disclaimer: The data has been not published. It has also been hidden from the code due to security concerns. The code just describes our methodology and can be used as an effective way for anomaly detection from sales data.
 
-Part 3 Solution:
+### Part 3 Solution:
 We used OpenCV to detect and count every person entering and leaving the store.(Only one counter was maintained for the total count).
 Steps followed:
-
 1. Detect every individual person using object detection and find out the centroids of the person.The centroid tracking algorithm makes the assumption that pairs of centroids with minimum Euclidean distance between them must be the same object ID.
 2. Count the person if it crosses the vertical line.
+
+<p align="left">
+<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/In.gif">
+</p></br>

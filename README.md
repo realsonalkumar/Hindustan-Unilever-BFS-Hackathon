@@ -21,9 +21,9 @@ Steps followed:
 1. Detect every individual person using object detection and find out the centroids of the person.The centroid tracking algorithm makes the assumption that pairs of centroids with minimum Euclidean distance between them must be the same object ID.
 2. Count the person if it crosses the vertical line.
 
-<p align="left">
-<img width="400" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/In.gif">
+<p align="center">
+<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/In.gif">
 </p>
-<p align="right">
-<img width="400" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Out.gif">
+<p align="center">
+<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Out.gif">
 </p></br>

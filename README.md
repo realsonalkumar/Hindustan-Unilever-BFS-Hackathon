@@ -18,8 +18,12 @@ The actual problem statement had 3 parts to it:
 ### Part 3 Solution:
 We used OpenCV to detect and count every person entering and leaving the store.(Only one counter was maintained for the total count).
 Steps followed:
-1. Detect every individual person using object detection and find out the centroids of the person.The centroid tracking algorithm makes the assumption that pairs of centroids with minimum Euclidean distance between them must be the same object ID.
-2. Count the person if it crosses the vertical line.
+1. Detect every individual person using object detection and find out the centroids of the person.
+2. We then assign an ID to each object with the help of its centriod and store it.The centroid tracking algorithm makes the assumption that pairs of centroids with minimum Euclidean distance between them must be the same object ID.
+3. Make a vertical line near the door.
+4. Count the person if it crosses the vertical line.
+
+Below is the actual working implementation of our algorithm on a CCTV footage of an actual Lakme store provided to us in the competition.
 
 <p align="center">
 <img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/In.gif">
@@ -27,3 +31,5 @@ Steps followed:
 <p align="center">
 <img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Out.gif">
 </p></br>
+
+Our code is inspired from people counter implemented in pyimagesearch.

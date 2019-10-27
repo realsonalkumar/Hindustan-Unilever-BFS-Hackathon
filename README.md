@@ -31,7 +31,7 @@ Below is a glimpse of how our model performed and visualization on 3 dimensions.
 </p>
 
 ### Part 2 Solution:
-Code for solution of part 2 wasn't included due to privacy issues. However, Part 2 was nothing special and just needed us to plot actual usage of inventory products and what should have been used according to the sales data to detect over-usage and under-usage of products and thereby detecting revenue leaks. We had about 5 datasets which included how much a particular store ordered a certain product and how much of a particualr product should have been ised for a particular service, etc. Additionally with the sales data from part 1, we just had to do some clever joining to get the desired plots.
+Code for solution of part 2 wasn't included due to privacy issues. However, Part 2 was nothing special and just needed us to plot actual usage of inventory products and what should have been used according to the sales data to detect over-usage and under-usage of products and thereby detecting revenue leaks. We had about 5 datasets which included how much a particular store ordered a certain product and how much of a particular product should have been used for a particular service, etc. Additionally with the sales data from part 1,which had data about how many of a particular service was offered in a particular month, we just had to do some clever joining to get the desired plots.
 
 ### Part 3 Solution:
 We used OpenCV to detect and count every person entering and leaving the store.(Only one counter was maintained for the total count).

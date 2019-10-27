@@ -24,7 +24,7 @@ Steps followed:
 4. Training Isolation Forest for anomaly detection. (DBSCAN was also tried but results were not good).
 5. Training VAE to learn anomalies for deployment.
 
-Below is a glimpse of how our model performed and visualization on 3 dimensions.
+Below is a glimpse of how our model performed and visualization on 3 dimensions. Yellow signifies normal and brown signifies anomaly.
 
 <p align="center">
 <img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Anomaly Plot.png">
@@ -49,3 +49,4 @@ Below is the actual working implementation of our algorithm on a CCTV footage of
 </p></br>
 
 Our code is inspired from people counter implemented in pyimagesearch.
+

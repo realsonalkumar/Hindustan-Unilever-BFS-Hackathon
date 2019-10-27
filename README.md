@@ -1,7 +1,7 @@
 # Hindustan-Unilever-BFS-Hackathon
 This repository contains our approach to Hindustan Unilever BFS Hackathon help at Unilever Offices in Bangalore.There were 2 parts of the hackathon. The online part was held on skilleza and one needed to be in the top 50 to qualify for the onsite hackathon.
 <p align="center">
-<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/Anomaly Plot.png">
+<img width="480" height="270" src="https://github.com/Sreyan88/Hindustan-Unilever-BFS-Hackathon/blob/master/Extra/HUL BFS.png">
 </p>
 
 There were a total of 6 problem statements.We were assigned problem statement 1. The description of the exact problem statement is given below.
